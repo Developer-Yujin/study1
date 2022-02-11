@@ -94,6 +94,19 @@ str.lower() #love
 </pre>
 
 
+인덱싱하기
+<pre>
+<code>
+# str[i] 해당 인덱스값을 반환한다.  
+# str[i:j]: i이상 ㅓ미만의 인덱스값을 반환한다.
+# str[i:j:s] : i번째로 부터 s단위로 j미만의 인덱스값을 반환한다.
+
+str = "I like it"
+str[3] #'l'
+str[2:5] #'lik'
+str[2:5:2] #'lk'
+</code>
+</pre>
 
 
 
