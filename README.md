@@ -98,7 +98,7 @@ str.lower() #love
 <pre>
 <code>
 # str[i] 해당 인덱스값을 반환한다.  
-# str[i:j]: i이상 ㅓ미만의 인덱스값을 반환한다.
+# str[i:j]: i이상 미만의 인덱스값을 반환한다.
 # str[i:j:s] : i번째로 부터 s단위로 j미만의 인덱스값을 반환한다.
 
 str = "I like it"
