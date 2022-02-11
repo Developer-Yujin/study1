@@ -38,7 +38,7 @@ count
 <pre>
 <code>
 # sequence.count('String') : 시퀀스에서 괄호 안의 String이 몇 번 들어갔는지 세어준다.
-str = java
+str = 'java'
 str = str.count('a')
 >>> str = 2
 list = [1,1,2,3,3,3]
@@ -58,7 +58,50 @@ len([1,2,3,4,5])
 </code>
 </pre>
 
-ㅣ
+find
+<pre>
+<code>
+# String.find() : 괄호 안의 문자가 처음 나온 인덱스를 알려준다.
+# 만약에 없다면 -1을 반환한다.
+# 리스트, 튜플, 딕셔너리 자료형에서는 find 함수를 사용할 수 없다. 만일 사용하게 되면 AttributeError 에러가 발생한다.
+# cf) index 함수도 동일한 기능을 하지만 찾는 문자열이 없으면 -1을 반환하는 find와는 달리 ValueError가 발생한다.
+
+str = 'java'
+str.find(a) #1
+
+</code>
+</pre>
+
+upper
+<pre>
+<code>
+# String.upper() : 소문자를 대문자로 바꿔준다
+
+str = 'Love'
+str.upper() #LOVE
+</code>
+</pre>
+
+
+lower
+<pre>
+<code>
+# String.lower() : 대문자를 소문자로 바꿔준다.
+
+str = 'Love'
+str.lower() #love
+</code>
+</pre>
+
+
+
+
+
+
+
+
+
+
 
 
 
