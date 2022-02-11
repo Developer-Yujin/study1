@@ -8,6 +8,7 @@
 #split
 '''python
 #sequence.split()형태로 쓴다 괄호 안의 문자를 기준으로 시퀀스를 나눈다.
+```
 
 
 
